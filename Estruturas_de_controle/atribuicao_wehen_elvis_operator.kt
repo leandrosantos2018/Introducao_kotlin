@@ -37,4 +37,35 @@ when(year){
     currentYear -> // ano Atual
 }
 
+/* Elvis Operator
+o mais próximo que a liguagem possui de um operador ternário
+verifica se um valor é nulo e apresenta uma opção caso seja.
+pode ser encadeado; */
+
+val a:Int? =null        //Nesse caso, se o valor de a não for nulo,
+val c:Int? = 9          //number recebe a.
+var number = a?: b?: 0 /*se o valor de a for nullo e b não for nulo, 
+                        number recebe b
+                        se a e b forem nullo recebe 0  */
+
+     var t:Int
+     var x:Int? = null
+     var o:Int? = 10
+     t = x?:w ?:-1
+
+fun Int.getStudentStatus():String{
+    println("nota $this")
+
+    return when(this){
+    in 0..4 -> "Reprovado"
+    in 5..7 ->"mediano"
+    in 8..9 ->"Boa"
+    else -> "Indefinido"
+    }
+
+}
+
+
+
+
 }
