@@ -36,6 +36,40 @@ fun main (){
     for(i in 0..20 step 2){
         println(i)
     }
+// Exemplos de For
 
-    // forEach
+// Step definido intervalo de Contagem( conta dois em dois)
+for(i in 0..20 step 2){
+    println(i)
+}
+//contagem descrecente até 0
+for(i in 0..10 downTo 0){
+    println(i)
+}
+
+// conta valores - 1
+for(i in 0 until 10){
+    println(i)
+}
+
+}
+// letters
+
+fun letters(){
+    var sArray = "Olha essa String !"
+    //tamanho do Array
+    //casa posição do Array
+    for (l in sArray){
+        //l[index]
+        println(l.toUpperCase())
+    }
+
+// função Extensões
+    fun letters_(){
+        val sArray = "Olha essa String !"
+        //tamanho do Array
+        //casa posição do Array
+        sArray.forEach{l -> 
+            println(l + "")
+        }
 }
