@@ -17,4 +17,24 @@ val MaxValue = if(a >b) a else if (a < b) b else b
         b
     }
 
+/* Equivalente ao switch de outras linguagem
+aceita tanto valores quanto condicionais
+aceita range como case */
+
+//when =  switch case
+
+when {
+    a > b -> {}
+    a != b && a > c -> {}
+    b ==0 -> {}
+    else -> {}
+}
+
+when(year){
+    -4000.. 475 - > // Antiguidade
+    476.. 1452 -> //Medieval
+    1453..1789 ->//Moderna
+    currentYear -> // ano Atual
+}
+
 }
