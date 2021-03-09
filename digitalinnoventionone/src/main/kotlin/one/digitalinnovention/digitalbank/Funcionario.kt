@@ -6,10 +6,10 @@ import java.math.BigDecimal
 
     nome: String,
      cpf: String,
-    val salario : BigDecimal
+    val salario : Double
 
 ): Pessoa(nome,cpf){
 
-    abstract fun CalculoAuxilio()
-
-}
+ protected   abstract fun CalculoAuxilio():Double
+     abstract fun calcularAuxilio(): Double
+ }
