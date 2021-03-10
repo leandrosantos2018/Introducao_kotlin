@@ -10,6 +10,7 @@ import java.math.BigDecimal
 
 ): Pessoa(nome,cpf){
 
- protected   abstract fun CalculoAuxilio():Double
-     abstract fun calcularAuxilio(): Double
+override fun CalculoAuxilio():Double {} + Salario * 0.4 {}
+
+
  }
