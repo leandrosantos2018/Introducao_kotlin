@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Operadores;
 
 public class Matematicos<i> {
     public static void main(String[] args) {

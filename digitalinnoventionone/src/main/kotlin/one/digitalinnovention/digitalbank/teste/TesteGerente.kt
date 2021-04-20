@@ -7,7 +7,7 @@ import one.digitalinnovention.digitalbank.Analista as Analista
 
 fun main() {
 
-    val maria = Gerente("Maria Ramos ","145.022.000.-10",5000.00)
+    val maria = Gerente("Maria Ramos ","145.022.000.-10",5000.00,"12345")
 
     imprimiRelatorio(maria)
 }

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Operadores;
 
 public class Logicos {
     public static void main(String[] args) {
@@ -16,18 +16,18 @@ public class Logicos {
         }
         // Non Sort Circuit
 //
-//    if(Verifica(15) | Verifica("A")){
+//    if(verifica(15) | verifica("A")){
 //        System.out.println("OK");
 //    } else {
 //        System.out.println("Não OK");
 //    }
-//    private static boolean Verifica(String letra){
+//    private static boolean verifica(String letra){
 //            System.out.println("vericiando letra");
 //            return letra.equals("A");
 //        }
 //
-//    private static boolean Verifica(Integer numero){
-//            System.out.println("Verificando numero...");
+//    private static boolean verifica(Integer numero){
+//            System.out.println("verificando numero...");
 //            return numero > 10;
 //        }
 }

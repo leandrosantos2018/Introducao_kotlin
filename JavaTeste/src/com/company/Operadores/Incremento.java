@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Operadores;
 
 public class Incremento {
     public static void main(String[] args) {
